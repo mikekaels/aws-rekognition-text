@@ -1,4 +1,4 @@
-const DetectText = require('../models/detectText');
+const DetectText = require('../helpers/detectText');
 const {success, error} = require('../helpers/response');
 
 exports.detectText = async (req, res) => {

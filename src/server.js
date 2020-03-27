@@ -33,6 +33,7 @@ app.use('/api/v1', router)
 
 app.use(serverError)
 app.use(notFound)
+
 app.listen(port, () => {
     console.log(`Server started at ${Date()}`);
     console.log(`Listening to port ${port}`);
